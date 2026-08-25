@@ -49,14 +49,14 @@ print(f"Olá, {nome}!")
 
 # 2
 nome = input("Digite seu nome: ")
-idade = input("Digite a sua idade: ")
+idade = int(input("Digite a sua idade: "))
 
 print(f"Olá, {nome}, você tem {idade} anos.")
 
 # 3
 nome = input("Digite o seu nome: ")
-idade = input("Digite a sua idade: ")
-altura = input("Digite a sua altura: ")
+idade = int(input("Digite a sua idade: "))
+altura = float(input("Digite a sua altura: "))
 
 print(f"Olá, {nome}, você tem {idade} anos e mede {altura} metros!")
 
@@ -132,7 +132,7 @@ parte1 = (5 * 1) + (12 * 2) + (20 * 3) + (15 * 4)
 parte2 = 1 + 2 + 3 + 4
 media = parte1 / parte2
 
-print(media)
+print(f"A média ponderada é: {media}")
 
 """**`Editando textos`**"""
 
